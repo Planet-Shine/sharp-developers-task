@@ -1,6 +1,7 @@
 
-import ReactDOM from 'react-dom';
 import React from 'react';
+import ReactDOM from 'react-dom';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import produceStore from 'store';
 import getRoutes from 'routes';
 import { Router, hashHistory } from 'react-router';
@@ -17,7 +18,9 @@ const component = (
 function renderApp() {
     ReactDOM.render(
         <Provider store={produceStore()} key="provider">
-            {component}
+            <MuiThemeProvider>
+                {component}
+            </MuiThemeProvider>
         </Provider>,
         document.getElementById('mount-point')
     );

@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react';
-import './AppLayout.less';
+import './AccountPage.less';
 
 class AccountPage extends Component {
 

@@ -10,3 +10,6 @@ material-ui:
 http://www.material-ui.com/#/
 
 Как установить Roboto.
+
+Todo:
+001. Прикрепить font medium для font-weight: 500.

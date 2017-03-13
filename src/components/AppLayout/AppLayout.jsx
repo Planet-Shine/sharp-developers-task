@@ -7,7 +7,6 @@ class AppLayout extends Component {
     render() {
         return (
             <div>
-                App Layout
                 {this.props.children}
             </div>
         );

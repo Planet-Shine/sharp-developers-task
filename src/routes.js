@@ -32,12 +32,10 @@ export default () => {
 
 function requireAuth(nextState, replace) {
     console.log('requireAuth!');
-    /*
-    if (!SessionStore.isLoggedIn()) {
+    if (!false) {
         replace({
             pathname: '/login',
             state: { nextPathname: nextState.location.pathname }
         });
     }
-    */
 }

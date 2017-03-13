@@ -7,3 +7,5 @@ export LoginPage from './LoginPage/LoginPage';
 export RegisterPage from './RegisterPage/RegisterPage';
 export TransactionPage from './TransactionPage/TransactionPage';
 export VisitorLayout from './VisitorLayout/VisitorLayout';
+export ParrotWingsHeader from './ParrotWingsHeader/ParrotWingsHeader';
+export ButtonLink from './ButtonLink/ButtonLink';

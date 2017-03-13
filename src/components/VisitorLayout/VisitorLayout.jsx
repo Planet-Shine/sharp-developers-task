@@ -1,13 +1,13 @@
 
 import React, { Component } from 'react';
-import './TransactionPage.less';
+import './VisitorLayout.less';
+import {Card, CardTitle, CardText} from 'material-ui/Card';
 
 class VisitorLayout extends Component {
 
     render() {
         return (
-            <div>
-                VisitorLayout
+            <div className="visitor-layout">
                 {this.props.children}
             </div>
         );
