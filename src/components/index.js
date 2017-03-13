@@ -4,6 +4,8 @@ export AppLayout from './AppLayout/AppLayout';
 export HistoryPage from './HistoryPage/HistoryPage';
 export LoggedInLayout from './LoggedInLayout/LoggedInLayout';
 export LoginPage from './LoginPage/LoginPage';
+export RegisterForm from './RegisterForm/RegisterForm';
+export LoginForm from './LoginForm/LoginForm';
 export RegisterPage from './RegisterPage/RegisterPage';
 export TransactionPage from './TransactionPage/TransactionPage';
 export VisitorLayout from './VisitorLayout/VisitorLayout';

@@ -1,6 +1,6 @@
 
 API
-https://docs.google.com/document/d/1NMfvzJq173mqQwrMq5-s5PqQ-c6kZE1ZqhTbruGsv80/edit
+https://docs.google.com/document/d/1JbBdzroRFkHuUNAF7fnDuXvPgHgY-XvM8f_6R7bUjkg/edit?usp=sharing
 
 Задание
 https://docs.google.com/document/d/1NMfvzJq173mqQwrMq5-s5PqQ-c6kZE1ZqhTbruGsv80/edit
@@ -13,3 +13,6 @@ http://www.material-ui.com/#/
 
 Todo:
 001. Прикрепить font medium для font-weight: 500.
+002. Нет сервиса для logout'а. Видимо нужно перестать хранить access_token и перезагрузить страницу.
+Или узнать как logout делать.
+003.
