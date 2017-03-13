@@ -1,6 +1,9 @@
 
+export AccountPage from './AccountPage/AccountPage';
 export AppLayout from './AppLayout/AppLayout';
 export HistoryPage from './HistoryPage/HistoryPage';
-export LoginPage from './LoginPage/LoginPage';
-export TransactionPage from './TransactionPage/TransactionPage';
 export LoggedInLayout from './LoggedInLayout/LoggedInLayout';
+export LoginPage from './LoginPage/LoginPage';
+export RegisterPage from './RegisterPage/RegisterPage';
+export TransactionPage from './TransactionPage/TransactionPage';
+export VisitorLayout from './VisitorLayout/VisitorLayout';

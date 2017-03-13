@@ -2,15 +2,16 @@
 import React, { Component } from 'react';
 import './TransactionPage.less';
 
-class TransactionPage extends Component {
+class VisitorLayout extends Component {
 
     render() {
         return (
             <div>
-                TransactionPage
+                VisitorLayout
+                {this.props.children}
             </div>
         );
     }
 }
 
-export default TransactionPage;
+export default VisitorLayout;
