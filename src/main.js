@@ -9,15 +9,17 @@ import { Provider } from 'react-redux';
 
 import './styles/base.less';
 
+const store = produceStore();
+
 const component = (
     <Router history={hashHistory}>
-        {getRoutes()}
+        {getRoutes(store.getState)}
     </Router>
 );
 
 function renderApp() {
     ReactDOM.render(
-        <Provider store={produceStore()} key="provider">
+        <Provider store={store} key="provider">
             <MuiThemeProvider>
                 {component}
             </MuiThemeProvider>

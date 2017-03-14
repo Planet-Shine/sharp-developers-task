@@ -7,7 +7,7 @@ class AccountPage extends Component {
     render() {
         return (
             <div>
-                App Layout
+                App Layout Account Page
                 {this.props.children}
             </div>
         );

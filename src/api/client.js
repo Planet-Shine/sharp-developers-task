@@ -1,14 +1,18 @@
-import { createClient } from "fetch-plus";
-import fetchPlusBearerauth from "fetch-plus-bearerauth";
+
+import pathPrefix from 'rest/interceptor/pathPrefix';
+import oAuth from 'rest/interceptor/';
+import rest from 'rest';
+import mime from 'rest/interceptor/mime';
 const baseUrl = "http://193.124.114.46:3001/";
 
 export default (idToken) => {
-    var client;
+    var client = rest
+        .wrap(pathPrefix, { prefix: baseUrl })
+        .wrap(mime, { mime: 'application/json' });
     if (idToken) {
-        client = createClient(baseUrl);
-        client.addMiddleware(fetchPlusBearerauth(idToken));
-    } else {
-        client = createClient(baseUrl);
+        client = rest.wrap(oAuth, {
+            token: `Bearer ${idToken}`
+        });
     }
     return client;
 };

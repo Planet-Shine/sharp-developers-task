@@ -1,12 +1,18 @@
 
-import createClient from './client';
-var client = createClient();
+import createClient from './client'
+var client;
+updateClient();
+
+function updateClient(idToken) {
+    client = createClient(idToken);
+}
 
 const api = {
     registerUser({ username, password, email }) {
-        var promise = client.request('users', {
+        var promise = client({
+            path: 'users',
             method: "POST",
-            body: {
+            entity: {
                 username,
                 password,
                 email
@@ -14,43 +20,56 @@ const api = {
         });
         promise.then(({ id_token }) => {
             if (id_token) {
-                client = createClient(id_token);
+                updateClient(id_token);
             }
         });
         return promise;
     },
-    loginUser({username, email, password }){
-        var promise = client.request('users', {
+    loginUser({ email, password }) {
+        var promise = client({
+            path: 'users',
             method: "POST",
-            body: {
-                username,
+            entity: {
                 password,
                 email
             }
         });
         promise.then(({ id_token }) => {
             if (id_token) {
-                client = createClient(id_token);
+                updateClient(id_token);
             }
         });
         return promise;
-
     },
     transactionHistory() {
-        return client.get('/api/protected/transactions', {});
+        return client({
+            path: 'api/protected/transactions',
+            method: "GET"
+        });
     },
     createTransaction({name, amount}) {
-        return client.post('/api/protected/transactions', {
-            name,
-            amount
+        return client({
+            path: 'api/protected/transactions',
+            method: "POST",
+            entity: {
+                name,
+                amount
+            }
         });
     },
     userInfo() {
-        return client.get('/api/protected/user-info', {});
+        return client({
+            path: 'api/protected/user-info',
+            method: "GET"
+        });
     },
     filteredUserList({ filter }) {
-        return client.post('/api/protected/users/list', {
-            filter
+        return client({
+            path: '/api/protected/users/list',
+            method: "POST",
+            entity: {
+                filter
+            }
         });
     }
 };

@@ -1,9 +1,12 @@
 
-import defs from 'defs';
+import defs from 'defs/actionTypes';
 import Immutable from 'immutable';
 
 const defaultState = Immutable.fromJS({
-    enabled: true
+    succeed: false,
+    error: null,
+    enabled: true,
+    status: null
 });
 
 const props = (state=defaultState, action) => {
@@ -13,8 +16,22 @@ const props = (state=defaultState, action) => {
         case defs.REGISTER_PENDING:
             return state.set('enabled', false);
         case defs.REGISTER_SUCCEED:
+            return state.merge({
+                enabled: true,
+                status: action.payload.status,
+                succeed: true
+            });
         case defs.REGISTER_FAILED:
-            return state.set('enabled', true);
+            return state.merge({
+                enabled: true,
+                status: action.payload.status,
+                error: action.payload.entity
+            });
+        case defs.REGISTER_FORM_DELETE_ERRORS:
+            return state.merge({
+                error: null,
+                status: null
+            });
         default:
             return state;
     }

@@ -12,13 +12,17 @@ import {
     HistoryPage
 } from 'components';
 
-export default () => {
+import {
+    PWRegisterPage
+} from 'containers';
+
+export default (getState) => {
     return (
         <Route component={AppLayout}>
             <Redirect from="/" to="/account" />
             <Route path="/" component={VisitorLayout}>
                 <Route name="login" path="/login" component={LoginPage} />
-                <Route name="register" path="/register" component={RegisterPage} />
+                <Route name="register" path="/register" component={PWRegisterPage} />
             </Route>
             <Route path="/" component={LoggedInLayout} onEnter={requireAuth}>
                 <Route name="account" path="/account" component={AccountPage} />
@@ -27,15 +31,14 @@ export default () => {
             </Route>
         </Route>
     );
+
+    function requireAuth(nextState, replace) {
+        if (!getState().account.get('loggedIn')) {
+            replace({
+                pathname: '/login',
+                state: { nextPathname: nextState.location.pathname }
+            });
+        }
+    }
 };
 
-
-function requireAuth(nextState, replace) {
-    console.log('requireAuth!');
-    if (!false) {
-        replace({
-            pathname: '/login',
-            state: { nextPathname: nextState.location.pathname }
-        });
-    }
-}

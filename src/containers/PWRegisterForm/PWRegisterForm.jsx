@@ -8,11 +8,12 @@ import { validEmailReg, filledStringReg } from 'utils/validation';
 import { registerForm, deleteErrors, changeField } from 'actions/registerForm';
 import { registerUser } from 'actions/account';
 
-const mapStateToProps = ({ registerForm: {fields, errors, props} }) => {
+const mapStateToProps = ({ registerForm: {fields, errors, props}, account }) => {
     return {
         fields,
         errors,
-        props
+        props,
+        account
     };
 };
 @connect(mapStateToProps)
@@ -88,13 +89,14 @@ class PWRegisterForm extends Component {
     }
 
     render() {
-        const { fields, errors, props } = this.props;
+        const { fields, errors, props, account } = this.props;
         const { handleSubmit, handleChange } = this;
         return (
             <RegisterForm
                 fields={fields}
                 errors={errors}
                 props={props}
+                account={account}
                 onSubmit={handleSubmit}
                 onChange={handleChange} />
         );

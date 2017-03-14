@@ -1,5 +1,5 @@
 
-import defs from 'defs';
+import defs from 'defs/actionTypes';
 
 export const loginFormState = (state) => {
     return {

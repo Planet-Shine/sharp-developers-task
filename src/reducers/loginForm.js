@@ -1,5 +1,5 @@
 
-import defs from 'defs';
+import defs from 'defs/actionTypes';
 import Immutable from 'immutable';
 
 const defaultState = Immutable.fromJS({

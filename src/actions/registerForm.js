@@ -1,5 +1,5 @@
 
-import defs from 'defs';
+import defs from 'defs/actionTypes';
 import api from 'api';
 
 export const registerForm = ({fields, errors}) => {
