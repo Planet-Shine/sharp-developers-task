@@ -1,5 +1,5 @@
 
-import consts from 'constants';
+import defs from 'defs';
 import Immutable from 'immutable';
 
 const defaultState = Immutable.fromJS({});

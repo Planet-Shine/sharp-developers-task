@@ -1,28 +1,31 @@
 
 import api from 'api';
-import consts from 'constants';
+import defs from 'defs';
 
 export const loginUser = (dispatch) => {
     return dispatch => {
-        dispatch({type: consts.LOGIN_PENDING});
-        dispatch({type: consts.LOGIN_SUCCEED});
-        dispatch({type: consts.LOGIN_FAILED});
+        dispatch({type: defs.LOGIN_PENDING});
+        dispatch({type: defs.LOGIN_SUCCEED});
+        dispatch({type: defs.LOGIN_FAILED});
     };
 };
 
+
 export const registerUser = ({ username, password, email }) => {
     return dispatch => {
-        dispatch({type: consts.REGISTER_PENDING});
+        dispatch({type: defs.REGISTER_PENDING});
+        /*
         api.registerUser({ username, password, email }).then(data => {
             dispatch({
-                type: consts.REGISTER_SUCCEED,
+                type: defs.REGISTER_SUCCEED,
                 payload: null
             });
         }, error => {
             dispatch({
-                type: consts.REGISTER_FAILED,
+                type: defs.REGISTER_FAILED,
                 payload: null
             });
         });
+        */
     };
 };
