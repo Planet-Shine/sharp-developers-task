@@ -14,3 +14,5 @@ export ButtonLink from './ButtonLink/ButtonLink';
 export StatusBar from './StatusBar/StatusBar';
 export UserInfo from './UserInfo/UserInfo';
 export CardPage from './CardPage/CardPage';
+export TransactionForm from './TransactionForm/TransactionForm';
+export TransactionHistory from './TransactionHistory/TransactionHistory';

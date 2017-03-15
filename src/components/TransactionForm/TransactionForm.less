@@ -1,0 +1,36 @@
+
+.transaction-form {
+  padding: 20px;
+}
+
+.transaction-form {
+  padding: 0 30px 20px 30px;
+}
+
+.transaction-form__field {
+  padding: 10px 0;
+  max-width: 500px;
+}
+
+.transaction-form__field-amount {
+  position: relative;
+  max-width: 150px;
+  padding-right: 50px;
+  &:after {
+    position: absolute;
+    content: 'PW';
+    bottom: 20px;
+    right: 15px;
+  }
+}
+
+.transaction-form__actions {
+  input {
+    display: none;
+  }
+  padding: 20px 0 0 0;
+  &>* {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}

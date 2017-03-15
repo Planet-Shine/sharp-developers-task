@@ -58,8 +58,10 @@ class PWLoggedInLayout extends Component {
 
     render() {
         const { account, children } = this.props;
+        const { location } = this.props;
+        const isAccountPage = /\/account/.test(location.pathname);
         return (
-            <LoggedInLayout account={account} onLogout={this.handleLogout}>
+            <LoggedInLayout account={account} isAccountPage={isAccountPage} onLogout={this.handleLogout}>
                 {children}
             </LoggedInLayout>
         );
