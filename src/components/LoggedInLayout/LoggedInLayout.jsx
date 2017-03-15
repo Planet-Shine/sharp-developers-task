@@ -3,7 +3,7 @@ import ImmutablePropTypes from 'react-immutable-proptypes';
 import React, { Component, PropTypes } from 'react';
 import './LoggedInLayout.less';
 import {StatusBar} from 'components';
-import {ParrotWingsHeader, UserInfo} from 'components';
+import {ParrotWingsHeader, UserInfo, CardPage} from 'components';
 
 const parrotWingsHeaderStyle = {
     display: 'inline-block',
@@ -27,7 +27,9 @@ class LoggedInLayout extends Component {
                     <ParrotWingsHeader style={parrotWingsHeaderStyle} />
                     <UserInfo account={account} onLogout={this.props.onLogout} />
                 </StatusBar>
-                {this.props.children}
+                <CardPage>
+                    {this.props.children}
+                </CardPage>
             </div>
         );
     }

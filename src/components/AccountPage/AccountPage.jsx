@@ -1,14 +1,29 @@
 
 import React, { Component } from 'react';
 import './AccountPage.less';
-import { StatusBar } from 'components';
+import { CardText } from 'material-ui/Card';
+import RaisedButton from 'material-ui/RaisedButton';
+import FlatButton from 'material-ui/FlatButton';
+
+import { ButtonLink } from 'components';
 
 class AccountPage extends Component {
 
     render() {
         return (
             <div>
-                {this.props.children}
+                <CardText className="account-page__actions">
+                    <ButtonLink to="/transactions/create">
+                        <RaisedButton primary={true} label="Перевод денег" containerElement="label" />
+                    </ButtonLink>
+                    <ButtonLink to="/transactions">
+                        <FlatButton label="История платежей" containerElement="label" />
+                    </ButtonLink>
+                </CardText>
+                <CardText>
+                    Ваше веб-приложение электронных платежей Parrot Wings.<br />
+                    Совершайте переводы между участниками системы.
+                </CardText>
             </div>
         );
     }

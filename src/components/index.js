@@ -13,3 +13,4 @@ export ParrotWingsHeader from './ParrotWingsHeader/ParrotWingsHeader';
 export ButtonLink from './ButtonLink/ButtonLink';
 export StatusBar from './StatusBar/StatusBar';
 export UserInfo from './UserInfo/UserInfo';
+export CardPage from './CardPage/CardPage';
