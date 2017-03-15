@@ -12,7 +12,7 @@ export const loginUser = ({password, email}) => {
                 if (~successStatusCodes.indexOf(code) && id_token) {
                     dispatch(loginSucceed({id_token}));
                 } else {
-                    dispatch(loginFailed({id_token}));
+                    dispatch(loginFailed({code, entity}));
                 }
             }, ({ entity, status: { code }}) => {
                 dispatch(loginFailed({code, entity}));
