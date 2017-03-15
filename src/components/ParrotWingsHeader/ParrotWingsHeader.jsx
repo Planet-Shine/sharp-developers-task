@@ -1,5 +1,5 @@
 
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import { CardHeader } from 'material-ui/Card';
 import Avatar from 'material-ui/Avatar';
 
@@ -8,10 +8,14 @@ import {
 } from 'material-ui/styles/colors';
 
 class ParrotWingsHeader extends Component  {
+    static propTypes = {
+        style: PropTypes.object
+    };
 
     render() {
         return (
             <CardHeader
+                style={this.props.style}
                 avatar={<Avatar
                   src="/images/coin-ico.png"
                   backgroundColor={white}

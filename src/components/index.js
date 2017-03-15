@@ -11,3 +11,5 @@ export TransactionPage from './TransactionPage/TransactionPage';
 export VisitorLayout from './VisitorLayout/VisitorLayout';
 export ParrotWingsHeader from './ParrotWingsHeader/ParrotWingsHeader';
 export ButtonLink from './ButtonLink/ButtonLink';
+export StatusBar from './StatusBar/StatusBar';
+export UserInfo from './UserInfo/UserInfo';

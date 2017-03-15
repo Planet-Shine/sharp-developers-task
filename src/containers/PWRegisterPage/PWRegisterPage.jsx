@@ -39,7 +39,7 @@ class PWRegisterPage extends Component {
     }
 
     redirectLoggedInUser() {
-        const { location } = this.props;
+        const { location, dispatch } = this.props;
         if (location.state && location.state.nextPathname) {
             let nextPathname = location.state.nextPathname;
             delete location.state.nextPathname;
@@ -47,8 +47,8 @@ class PWRegisterPage extends Component {
         } else {
             this.context.router.replace('/account');
         }
-        this.props.dispatch(refreshRegisterForm());
-        this.props.dispatch(refreshLoginForm());
+        dispatch(refreshRegisterForm());
+        dispatch(refreshLoginForm());
     }
 
     render() {

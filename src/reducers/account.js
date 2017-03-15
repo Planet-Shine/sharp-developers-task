@@ -1,13 +1,27 @@
 
 import defs from 'defs/actionTypes';
 import Immutable from 'immutable';
+import cookies  from 'browser-cookies';
 
-const defaultState = Immutable.fromJS({
-    idToken: null,
-    loggedIn: false
+
+const defaultUserInfo = Immutable.fromJS({
+    pending: false,
+    loaded: false,
+    id: null,
+    name: null,
+    email: null,
+    balance: null
 });
+const getDefaultState = () => {
+    const idToken = cookies.get('idToken');
+    const defaultState = Immutable.fromJS({
+        idToken: idToken,
+        loggedIn: !!idToken
+    }).merge(defaultUserInfo);
+    return defaultState;
+};
 
-const account = (state=defaultState, action) => {
+const account = (state=getDefaultState(), action) => {
     switch (action.type) {
         case defs.LOGIN_SUCCEED:
             state = state.set('idToken', action.payload);
@@ -15,6 +29,14 @@ const account = (state=defaultState, action) => {
                 state = state.set('loggedIn', true);
             }
             return state;
+        case defs.USER_INFO_PENDING:
+            return state.set('pending', true);
+        case defs.USER_INFO_SUCCEED:
+            return state.merge(action.payload, {pending: false, loaded: true});
+        case defs.USER_INFO_FAIL:
+            return state.merge(defaultUserInfo);
+        case defs.LOGOUT:
+            return getDefaultState();
         default:
             return state;
     }

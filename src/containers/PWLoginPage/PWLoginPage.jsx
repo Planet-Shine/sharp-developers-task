@@ -2,6 +2,8 @@
 import React, { Component, PropTypes } from 'react';
 import { LoginPage } from 'components';
 import { connect } from 'react-redux';
+import { refreshRegisterForm } from 'actions/registerForm';
+import { refreshLoginForm } from 'actions/loginForm';
 
 const mapStateToProps = ({ account }) => {
     return {
@@ -30,7 +32,7 @@ class PWLoginPage extends Component {
     }
 
     redirectLoggedInUser() {
-        const { location } = this.props;
+        const { location, dispatch } = this.props;
         if (location.state && location.state.nextPathname) {
             let nextPathname = location.state.nextPathname;
             delete location.state.nextPathname;
@@ -38,6 +40,8 @@ class PWLoginPage extends Component {
         } else {
             this.context.router.replace('/account');
         }
+        dispatch(refreshRegisterForm());
+        dispatch(refreshLoginForm());
     }
 
     render() {

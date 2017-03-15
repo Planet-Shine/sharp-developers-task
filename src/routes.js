@@ -6,7 +6,6 @@ import {
     VisitorLayout,
     LoginPage,
     RegisterPage,
-    LoggedInLayout,
     AccountPage,
     TransactionPage,
     HistoryPage
@@ -14,7 +13,8 @@ import {
 
 import {
     PWLoginPage,
-    PWRegisterPage
+    PWRegisterPage,
+    PWLoggedInLayout
 } from 'containers';
 
 export default (getState) => {
@@ -25,7 +25,7 @@ export default (getState) => {
                 <Route name="login" path="/login" component={PWLoginPage} />
                 <Route name="register" path="/register" component={PWRegisterPage} />
             </Route>
-            <Route path="/" component={LoggedInLayout} onEnter={requireAuth}>
+            <Route path="/" component={PWLoggedInLayout} onEnter={requireAuth}>
                 <Route name="account" path="/account" component={AccountPage} />
                 <Route name="transaction" path='/transactions/create' component={TransactionPage} />
                 <Route name="transactions" path='/transactions' component={HistoryPage} />

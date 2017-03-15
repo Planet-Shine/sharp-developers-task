@@ -1,7 +1,8 @@
 
-import createClient from './client'
+import createClient, {deleteToken} from './client'
 var client;
 updateClient();
+
 
 function updateClient(idToken) {
     client = createClient(idToken);
@@ -18,7 +19,7 @@ const api = {
                 email
             }
         });
-        promise.then(({ id_token }) => {
+        promise.then(({ entity: {id_token} }) => {
             if (id_token) {
                 updateClient(id_token);
             }
@@ -34,7 +35,7 @@ const api = {
                 email
             }
         });
-        promise.then(({ id_token }) => {
+        promise.then(({ entity: {id_token} }) => {
             if (id_token) {
                 updateClient(id_token);
             }
@@ -62,6 +63,10 @@ const api = {
             path: 'api/protected/user-info',
             method: "GET"
         });
+    },
+    logout() {
+        deleteToken();
+        updateClient();
     },
     filteredUserList({ filter }) {
         return client({

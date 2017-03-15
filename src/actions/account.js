@@ -20,6 +20,37 @@ export const loginUser = ({password, email}) => {
     };
 };
 
+export const logoutUser = () => {
+    return dispatch => {
+        api.logout();
+        dispatch({
+            type: defs.LOGOUT
+        });
+    };
+};
+
+export const userInfo = () => {
+    return dispatch => {
+        dispatch({type: defs.USER_INFO_PENDING});
+        api.userInfo()
+            .then(({ entity={}, status: { code }}) => {
+                if (~successStatusCodes.indexOf(code)) {
+                    let {id, name, email, balance} = entity.user_info_token;
+                    dispatch({
+                        type: defs.USER_INFO_SUCCEED,
+                        payload: {id, name, email, balance}
+                    });
+                } else {
+                    dispatch({
+                        type: defs.USER_INFO_FAILED
+                    });
+                }
+            }, ({ entity, status: { code }}) => {
+
+            });
+    };
+};
+
 const registerFailed = ({code, entity}) => {
     return {
         type: defs.REGISTER_FAILED,
