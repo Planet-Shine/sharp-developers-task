@@ -1,51 +1,81 @@
 
-import React, { Component } from 'react';
+import ImmutablePropTypes from 'react-immutable-proptypes';
+import React, { Component, PropTypes } from 'react';
 import { LoginForm } from 'components';
 import { connect } from 'react-redux';
 
-import { validEmailRegExp, filledString } from 'utils/validation';
+import { filledStringReg } from 'utils/validation';
+import { loginForm, deleteErrors, changeField } from 'actions/loginForm';
+import { loginUser } from 'actions/account';
 
-const mapStateToProps = (state) => {
+const mapStateToProps = ({ loginForm: {fields, errors, properties}, account }) => {
     return {
-        formState: state.loginForm
+        fields,
+        errors,
+        properties,
+        account
     };
 };
 
 @connect(mapStateToProps)
 class PWLoginForm extends Component {
 
+    static propTypes = {
+        fields: ImmutablePropTypes.mapContains({
+            email: PropTypes.string,
+            password: PropTypes.string
+        }),
+        errors: ImmutablePropTypes.list,
+        account: ImmutablePropTypes.map,
+        properties: ImmutablePropTypes.map
+    };
+
+    constructor() {
+        super();
+        this.handleSubmit = this.handleSubmit.bind(this);
+        this.handleChange = this.handleChange.bind(this);
+    }
+
     handleSubmit({ email, password }) {
-        var formState = {
-            email : {
-                value: email,
-                errors: []
+        var fields = {
+                email, password
             },
-            password: {
-                value: password,
-                errors: []
-            }
-        };
-        if (!validEmailRegExp.test(email)) {
-            formState.email.errors.push({
-                type: 'invalid'
+            errors = [];
+        if (!filledStringReg.test(email)) {
+            errors.push({
+                name: 'email',
+                error: 'required'
             });
         }
-        if (!filledString.test(email)) {
-            formState.email.errors.push({
-                type: 'required'
+        if (!filledStringReg.test(password)) {
+            errors.push({
+                name: 'password',
+                error: 'required'
             });
         }
-        if (filledString.test(password)) {
-            formState.password.errors.push({
-                type: 'required'
-            });
+        const { dispatch } = this.props;
+        if (!errors.length) {
+            dispatch(loginUser({ email, password }));
         }
-        this.props.dispatch();
+        dispatch(loginForm({fields, errors}));
+    }
+
+    handleChange(name, value) {
+        const { dispatch } = this.props;
+        dispatch(deleteErrors(name));
+        dispatch(changeField({[name] : value}));
     }
 
     render() {
+        const { fields, errors, properties, account } = this.props;
+        const { handleSubmit, handleChange } = this;
         return (
-            <LoginForm onSubmit={this.handleSubmit} />
+            <LoginForm fields={fields}
+                       errors={errors}
+                       properties={properties}
+                       account={account}
+                       onSubmit={handleSubmit}
+                       onChange={handleChange} />
         );
     }
 }

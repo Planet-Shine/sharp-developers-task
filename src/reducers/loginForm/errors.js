@@ -6,13 +6,13 @@ const defaultState = Immutable.fromJS([]);
 
 const errors = (state=defaultState, action) => {
     switch (action.type) {
-        case defs.REGISTER_FORM:
+        case defs.LOGIN_FORM:
             return Immutable.fromJS(action.payload.errors);
-        case defs.REGISTER_FORM_DELETE_ERRORS:
+        case defs.LOGIN_FORM_DELETE_ERRORS:
             return state.filter(
                 item => item.get('name') !== action.payload
             );
-        case defs.REGISTER_FORM_REFRESH:
+        case defs.LOGIN_FORM_REFRESH:
             return defaultState;
         default:
             return state;

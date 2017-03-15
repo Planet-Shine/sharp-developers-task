@@ -13,6 +13,7 @@ import {
 } from 'components';
 
 import {
+    PWLoginPage,
     PWRegisterPage
 } from 'containers';
 
@@ -21,13 +22,13 @@ export default (getState) => {
         <Route component={AppLayout}>
             <Redirect from="/" to="/account" />
             <Route path="/" component={VisitorLayout}>
-                <Route name="login" path="/login" component={LoginPage} />
+                <Route name="login" path="/login" component={PWLoginPage} />
                 <Route name="register" path="/register" component={PWRegisterPage} />
             </Route>
             <Route path="/" component={LoggedInLayout} onEnter={requireAuth}>
                 <Route name="account" path="/account" component={AccountPage} />
-                <Route name="transaction" path='/transaction' component={TransactionPage} />
-                <Route name="history" path='/history' component={HistoryPage} />
+                <Route name="transaction" path='/transactions/create' component={TransactionPage} />
+                <Route name="transactions" path='/transactions' component={HistoryPage} />
             </Route>
         </Route>
     );

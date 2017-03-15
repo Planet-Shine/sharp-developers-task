@@ -30,3 +30,9 @@ export const enabled = (isEnabled) => {
     };
 };
 
+export const refreshRegisterForm = () => {
+    return {
+        type: defs.REGISTER_FORM_REFRESH
+    };
+};
+

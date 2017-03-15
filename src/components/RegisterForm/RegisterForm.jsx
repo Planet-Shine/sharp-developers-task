@@ -52,7 +52,8 @@ class RegisterForm extends Component {
             password1: PropTypes.string,
             password2: PropTypes.string
         }),
-        errors: ImmutablePropTypes.list
+        errors: ImmutablePropTypes.list,
+        properties: ImmutablePropTypes.map
     };
 
     constructor() {
@@ -67,7 +68,7 @@ class RegisterForm extends Component {
 
     handleSubmit(event) {
         event.preventDefault();
-        const enabled = this.props.props.get('enabled');
+        const enabled = this.props.properties.get('enabled');
         if (enabled) {
             const username = this.usernameField.input.value;
             const email = this.emailField.input.value;
@@ -84,13 +85,13 @@ class RegisterForm extends Component {
 
     render() {
         const { username, email, password1, password2 } = this.props.fields.toJS();
-        var { errors, props, account } = this.props;
+        var { errors, properties, account } = this.props;
         const errorMap = {};
         errors = errors.toJS();
         errors.forEach(({error, name}) => {
             errorMap[name] = errorMessages[name][error];
         });
-        const { enabled, succeed, error, status } = props.toJS();
+        const { enabled, succeed, error, status } = properties.toJS();
         const disabled = !enabled;
         const loggedIn = account.get('loggedIn');
         return (
@@ -155,13 +156,20 @@ class RegisterForm extends Component {
                     </CardText>
                 }
                 <div className="register-form__actions">
-                    <RaisedButton disabled={disabled} primary={true} label="Зарегистрировать" containerElement="label">
-                        <input type="submit" />
-                    </RaisedButton>
+                    {
+                        !succeed &&
+                        <RaisedButton disabled={disabled} primary={true} label="Зарегистрировать"
+                                      containerElement="label">
+                            <input type="submit"/>
+                        </RaisedButton>
+                    }
                     {disabled && <CircularProgress className="register-form__circular" />}
-                    <ButtonLink to="/login">
-                        <FlatButton label="Вход" containerElement="label" />
-                    </ButtonLink>
+                    {
+                        !succeed && enabled &&
+                        <ButtonLink to="/login">
+                            <FlatButton label="Вход" containerElement="label" />
+                        </ButtonLink>
+                    }
                 </div>
             </form>
         );

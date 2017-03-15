@@ -8,5 +8,6 @@ import registerForm from './registerForm';
 export default combineReducers({
     routing: routerReducer,
     account,
+    loginForm,
     registerForm
 });

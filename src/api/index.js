@@ -27,7 +27,7 @@ const api = {
     },
     loginUser({ email, password }) {
         var promise = client({
-            path: 'users',
+            path: 'sessions/create',
             method: "POST",
             entity: {
                 password,
@@ -65,7 +65,7 @@ const api = {
     },
     filteredUserList({ filter }) {
         return client({
-            path: '/api/protected/users/list',
+            path: 'api/protected/users/list',
             method: "POST",
             entity: {
                 filter

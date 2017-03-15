@@ -8,11 +8,11 @@ import { validEmailReg, filledStringReg } from 'utils/validation';
 import { registerForm, deleteErrors, changeField } from 'actions/registerForm';
 import { registerUser } from 'actions/account';
 
-const mapStateToProps = ({ registerForm: {fields, errors, props}, account }) => {
+const mapStateToProps = ({ registerForm: {fields, errors, properties}, account }) => {
     return {
         fields,
         errors,
-        props,
+        properties,
         account
     };
 };
@@ -25,7 +25,9 @@ class PWRegisterForm extends Component {
             password1: PropTypes.string,
             password2: PropTypes.string
         }),
-        errors: ImmutablePropTypes.list
+        errors: ImmutablePropTypes.list,
+        account: ImmutablePropTypes.map,
+        properties: ImmutablePropTypes.map
     };
 
     constructor() {
@@ -89,13 +91,13 @@ class PWRegisterForm extends Component {
     }
 
     render() {
-        const { fields, errors, props, account } = this.props;
+        const { fields, errors, properties, account } = this.props;
         const { handleSubmit, handleChange } = this;
         return (
             <RegisterForm
                 fields={fields}
                 errors={errors}
-                props={props}
+                properties={properties}
                 account={account}
                 onSubmit={handleSubmit}
                 onChange={handleChange} />

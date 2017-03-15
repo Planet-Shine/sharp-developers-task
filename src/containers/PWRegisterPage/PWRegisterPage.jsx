@@ -2,6 +2,8 @@
 import React, { Component, PropTypes } from 'react';
 import { RegisterPage } from 'components';
 import { connect } from 'react-redux';
+import { refreshRegisterForm } from 'actions/registerForm';
+import { refreshLoginForm } from 'actions/loginForm';
 
 const REDIRECT_TIMEOUT = 2000;
 
@@ -15,6 +17,14 @@ class PWRegisterPage extends Component {
     static contextTypes = {
         router: PropTypes.object.isRequired
     };
+    componentDidMount() {
+        const { account } = this.props;
+        const loggedIn = account.get('loggedIn');
+        if (loggedIn) {
+            this.redirectLoggedInUser();
+        }
+    }
+
     componentWillUpdate({ account }) {
         const loggedIn = account.get('loggedIn');
         if (loggedIn) {
@@ -31,10 +41,14 @@ class PWRegisterPage extends Component {
     redirectLoggedInUser() {
         const { location } = this.props;
         if (location.state && location.state.nextPathname) {
-            this.context.router.replace(location.state.nextPathname);
+            let nextPathname = location.state.nextPathname;
+            delete location.state.nextPathname;
+            this.context.router.replace(nextPathname);
         } else {
             this.context.router.replace('/account');
         }
+        this.props.dispatch(refreshRegisterForm());
+        this.props.dispatch(refreshLoginForm());
     }
 
     render() {

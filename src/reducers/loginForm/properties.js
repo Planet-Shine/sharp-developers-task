@@ -9,32 +9,34 @@ const defaultState = Immutable.fromJS({
     status: null
 });
 
-const props = (state=defaultState, action) => {
+const properties = (state=defaultState, action) => {
     switch (action.type) {
-        case defs.REGISTER_FORM_ENABLED:
+        case defs.LOGIN_FORM_ENABLED:
             return state.set('enabled', action.payload);
-        case defs.REGISTER_PENDING:
+        case defs.LOGIN_PENDING:
             return state.set('enabled', false);
-        case defs.REGISTER_SUCCEED:
+        case defs.LOGIN_SUCCEED:
             return state.merge({
                 enabled: true,
                 status: action.payload.status,
                 succeed: true
             });
-        case defs.REGISTER_FAILED:
+        case defs.LOGIN_FAILED:
             return state.merge({
                 enabled: true,
                 status: action.payload.status,
                 error: action.payload.entity
             });
-        case defs.REGISTER_FORM_DELETE_ERRORS:
+        case defs.LOGIN_FORM_DELETE_ERRORS:
             return state.merge({
                 error: null,
                 status: null
             });
+        case defs.LOGIN_FORM_REFRESH:
+            return defaultState;
         default:
             return state;
     }
 };
 
-export default props;
+export default properties;

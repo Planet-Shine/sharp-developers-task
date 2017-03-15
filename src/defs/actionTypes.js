@@ -8,8 +8,13 @@ export default keyMirror({
     REGISTER_SUCCEED: null,
     REGISTER_FAILED: null,
     LOGIN_FORM: null,
+    LOGIN_FORM_FIELD: null,
+    LOGIN_FORM_DELETE_ERRORS: null,
+    LOGIN_FORM_ENABLED: null,
+    LOGIN_FORM_REFRESH: null,
     REGISTER_FORM: null,
     REGISTER_FORM_FIELD: null,
     REGISTER_FORM_DELETE_ERRORS: null,
-    REGISTER_FORM_ENABLED: null
+    REGISTER_FORM_ENABLED: null,
+    REGISTER_FORM_REFRESH: null
 });

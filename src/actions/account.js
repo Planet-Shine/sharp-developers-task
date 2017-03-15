@@ -3,11 +3,20 @@ import api from 'api';
 import defs from 'defs/actionTypes';
 import { successStatusCodes } from 'defs/httpStatusCodes';
 
-export const loginUser = (dispatch) => {
+export const loginUser = ({password, email}) => {
     return dispatch => {
         dispatch({type: defs.LOGIN_PENDING});
-        dispatch({type: defs.LOGIN_SUCCEED});
-        dispatch({type: defs.LOGIN_FAILED});
+        api.loginUser({ password, email })
+            .then(({ entity, status: { code }}) => {
+                let { id_token } = entity;
+                if (~successStatusCodes.indexOf(code) && id_token) {
+                    dispatch(loginSucceed({id_token}));
+                } else {
+                    dispatch(loginFailed({id_token}));
+                }
+            }, ({ entity, status: { code }}) => {
+                dispatch(loginFailed({code, entity}));
+            });
     };
 };
 
@@ -34,6 +43,16 @@ const loginSucceed = ({id_token}) => {
     return {
         type: defs.LOGIN_SUCCEED,
         payload: id_token
+    };
+};
+
+const loginFailed = ({code, entity}) => {
+    return {
+        type: defs.LOGIN_FAILED,
+        payload: {
+            entity,
+            status: code
+        }
     };
 };
 
