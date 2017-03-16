@@ -23,6 +23,7 @@ const properties = (state=defaultState, action) => {
             });
         case defs.REGISTER_FAILED:
             return state.merge({
+                succeed: false,
                 enabled: true,
                 status: action.payload.status,
                 error: action.payload.entity

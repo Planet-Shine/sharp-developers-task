@@ -15,7 +15,6 @@ const store = produceStore();
 const component = (
     <Router history={hashHistory}
             onUpdate={function() {
-               console.log(this.state);
                store.dispatch(routerStateChange({state: this.state}));
             }}>
         {getRoutes(store)}

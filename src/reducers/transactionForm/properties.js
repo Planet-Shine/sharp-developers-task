@@ -19,10 +19,12 @@ const properties = (state=defaultState, action) => {
             return state.merge({
                 enabled: true,
                 status: action.payload.status,
-                succeed: true
+                succeed: true,
+                error: null
             });
         case defs.TRANSACTION_FAILED:
             return state.merge({
+                succeed: false,
                 enabled: true,
                 status: action.payload.status,
                 error: action.payload.entity

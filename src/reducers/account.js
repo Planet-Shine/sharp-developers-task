@@ -49,7 +49,16 @@ const account = (state=getDefaultState(), action) => {
         case defs.TRANSACTION_SUCCEED:
             return state.set('balance', (action.payload || {}).balance);
         case defs.TRANSACTION_FAILED:
-            return state.set('balance', state.get('previousBalance'));
+            return (function () {
+                const previousBalance = state.get('previousBalance');
+                if (previousBalance !== null) {
+                    return state.merge({
+                        balance: previousBalance,
+                        previousBalance: null
+                    });
+                }
+                return state;
+            }());
         case defs.USER_INFO_FAIL:
             return state.merge(defaultUserInfo);
         case defs.LOGOUT:

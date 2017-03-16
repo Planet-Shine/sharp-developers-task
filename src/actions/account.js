@@ -1,7 +1,7 @@
 
 import api from 'api';
 import defs from 'defs/actionTypes';
-import { successStatusCodes } from 'defs/httpStatusCodes';
+import statusCodes, { successStatusCodes } from 'defs/httpStatusCodes';
 
 const loginSucceed = ({id_token}) => {
     return {
@@ -69,7 +69,11 @@ export const userInfo = () => {
                     let {id, name, email, balance} = entity.user_info_token;
                     dispatch(userInfoSucceed({id, name, email, balance}));
                 } else {
-                    dispatch({status: code, entity});
+                    if (statusCodes.Unauthorized === code) {
+                        dispatch(logoutUser());
+                    } else {
+                        dispatch({status: code, entity});
+                    }
                 }
             }, ({ entity, status: { code }}) => {
                 dispatch(userInfoFailed({status: code, entity}));

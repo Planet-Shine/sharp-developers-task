@@ -19,6 +19,11 @@ const fields = (state=defaultState, action) => {
             return defaultState;
         case defs.ROUTER_STATE_CHANGE:
             return defaultState;
+        case defs.SELECT_TRANSACTION:
+            return state.merge({
+                name: action.payload.item.username,
+                amount: String(Math.abs(action.payload.item.amount))
+            });
         default:
             return state;
     }
