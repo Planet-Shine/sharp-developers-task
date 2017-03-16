@@ -28,7 +28,7 @@ const properties = (state=defaultState, action) => {
                 status: action.payload.status,
                 error: action.payload.entity
             });
-        case defs.REGISTER_FORM_DELETE_ERRORS:
+        case defs.REGISTER_FORM_FIELD:
             return state.merge({
                 error: null,
                 status: null

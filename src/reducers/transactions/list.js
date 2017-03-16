@@ -11,7 +11,9 @@ const list = (state=defaultState, action) => {
         case defs.TRANSACTION_HISTORY_SUCCEED:
             return Immutable.fromJS(action.payload);
         case defs.TRANSACTION_HISTORY_FAIL:
-            return defaultState;         
+            return defaultState;
+        case defs.TRANSACTION_SUCCEED:
+            return state.push(Immutable.fromJS(action.payload));
         default:
             return state;
     }

@@ -6,6 +6,7 @@ import {Table, TableBody, TableFooter, TableHeader, TableHeaderColumn, TableRow,
 import { formatPrice, formatAmount, formatDate } from 'utils/validation';
 import Subheader from 'material-ui/Subheader';
 import CircularProgress from 'material-ui/CircularProgress';
+import {CardText} from 'material-ui/Card';
 
 import httpStatusCodes from 'defs/httpStatusCodes';
 
@@ -48,6 +49,9 @@ class TransactionHistory extends Component {
                 }
                 {(!loaded || pending) && !error &&
                     <CircularProgress />
+                }
+                {(!list.length) &&
+                    <CardText>Вы еще не совершали ни одного перевода</CardText>
                 }
                 {(list.length || '') && loaded &&
                     <Table

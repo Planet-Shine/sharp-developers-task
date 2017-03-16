@@ -29,7 +29,7 @@ const properties = (state=defaultState, action) => {
                 status: action.payload.status,
                 error: action.payload.entity
             });
-        case defs.TRANSACTION_FORM_DELETE_ERRORS:
+        case defs.TRANSACTION_FORM_FIELD:
             return state.merge({
                 succeed: false,
                 error: null,
