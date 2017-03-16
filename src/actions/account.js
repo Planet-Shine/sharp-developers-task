@@ -3,6 +3,23 @@ import api from 'api';
 import defs from 'defs/actionTypes';
 import { successStatusCodes } from 'defs/httpStatusCodes';
 
+const loginSucceed = ({id_token}) => {
+    return {
+        type: defs.LOGIN_SUCCEED,
+        payload: id_token
+    };
+};
+
+const loginFailed = ({code, entity}) => {
+    return {
+        type: defs.LOGIN_FAILED,
+        payload: {
+            entity,
+            status: code
+        }
+    };
+};
+
 export const loginUser = ({password, email}) => {
     return dispatch => {
         dispatch({type: defs.LOGIN_PENDING});
@@ -12,10 +29,10 @@ export const loginUser = ({password, email}) => {
                 if (~successStatusCodes.indexOf(code) && id_token) {
                     dispatch(loginSucceed({id_token}));
                 } else {
-                    dispatch(loginFailed({code, entity}));
+                    dispatch(loginFailed({status: code, entity}));
                 }
             }, ({ entity, status: { code }}) => {
-                dispatch(loginFailed({code, entity}));
+                dispatch(loginFailed({status: code, entity}));
             });
     };
 };
@@ -29,6 +46,20 @@ export const logoutUser = () => {
     };
 };
 
+export const userInfoSucceed = ({id, name, email, balance}) => {
+    return {
+        type: defs.USER_INFO_SUCCEED,
+        payload: {id, name, email, balance}
+    };
+};
+
+export const userInfoFailed = ({status, entity}) => {
+    return {
+        type: defs.USER_INFO_FAILED,
+        payload: {status, entity}
+    };
+};
+
 export const userInfo = () => {
     return dispatch => {
         dispatch({type: defs.USER_INFO_PENDING});
@@ -36,17 +67,12 @@ export const userInfo = () => {
             .then(({ entity={}, status: { code }}) => {
                 if (~successStatusCodes.indexOf(code)) {
                     let {id, name, email, balance} = entity.user_info_token;
-                    dispatch({
-                        type: defs.USER_INFO_SUCCEED,
-                        payload: {id, name, email, balance}
-                    });
+                    dispatch(userInfoSucceed({id, name, email, balance}));
                 } else {
-                    dispatch({
-                        type: defs.USER_INFO_FAILED
-                    });
+                    dispatch({status: code, entity});
                 }
             }, ({ entity, status: { code }}) => {
-
+                dispatch(userInfoFailed({status: code, entity}));
             });
     };
 };
@@ -70,22 +96,7 @@ const registerSucceed = ({code}) => {
     };
 };
 
-const loginSucceed = ({id_token}) => {
-    return {
-        type: defs.LOGIN_SUCCEED,
-        payload: id_token
-    };
-};
 
-const loginFailed = ({code, entity}) => {
-    return {
-        type: defs.LOGIN_FAILED,
-        payload: {
-            entity,
-            status: code
-        }
-    };
-};
 
 export const registerUser = ({ username, password, email }) => {
     return dispatch => {

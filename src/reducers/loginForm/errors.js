@@ -13,6 +13,7 @@ const errors = (state=defaultState, action) => {
                 item => item.get('name') !== action.payload
             );
         case defs.LOGIN_FORM_REFRESH:
+        case defs.ROUTER_STATE_CHANGE:
             return defaultState;
         default:
             return state;

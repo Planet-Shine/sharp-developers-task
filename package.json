@@ -30,7 +30,8 @@
     "react-tap-event-plugin": "^0.2.2",
     "redux": "^3.0.4",
     "redux-thunk": "^2.2.0",
-    "rest": "^2.0.0"
+    "rest": "^2.0.0",
+    "throttle-debounce": "^1.0.1"
   },
   "devDependencies": {
     "autoprefixer-loader": "*",

@@ -3,7 +3,8 @@ import React, { Component } from 'react';
 import './TransactionPage.less';
 import { CardText, CardTitle } from 'material-ui/Card';
 
-import {TransactionForm, TransactionHistory} from 'components';
+import {TransactionHistory} from 'components';
+import {PWTransactionForm} from 'containers';
 
 class TransactionPage extends Component {
 
@@ -11,7 +12,7 @@ class TransactionPage extends Component {
         return (
             <div>
                 <CardTitle title="Перевод денег" />
-                <TransactionForm />
+                <PWTransactionForm />
                 <CardText>
                     Выберите перевод из истории, чтобы заполнить форму
                     <TransactionHistory />

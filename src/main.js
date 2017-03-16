@@ -6,14 +6,19 @@ import produceStore from 'store';
 import getRoutes from 'routes';
 import { Router, hashHistory } from 'react-router';
 import { Provider } from 'react-redux';
+import { routerStateChange } from 'actions/router';
 
 import './styles/base.less';
 
 const store = produceStore();
 
 const component = (
-    <Router history={hashHistory}>
-        {getRoutes(store.getState)}
+    <Router history={hashHistory}
+            onUpdate={function() {
+               console.log(this.state);
+               store.dispatch(routerStateChange({state: this.state}));
+            }}>
+        {getRoutes(store)}
     </Router>
 );
 

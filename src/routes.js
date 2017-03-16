@@ -17,7 +17,7 @@ import {
     PWLoggedInLayout
 } from 'containers';
 
-export default (getState) => {
+export default (store) => {
     return (
         <Route component={AppLayout}>
             <Redirect from="/" to="/account" />
@@ -34,7 +34,7 @@ export default (getState) => {
     );
 
     function requireAuth(nextState, replace) {
-        if (!getState().account.get('loggedIn')) {
+        if (!store.getState().account.get('loggedIn')) {
             replace({
                 pathname: '/login',
                 state: { nextPathname: nextState.location.pathname }

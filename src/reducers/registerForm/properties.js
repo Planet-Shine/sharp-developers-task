@@ -33,6 +33,7 @@ const properties = (state=defaultState, action) => {
                 status: null
             });
         case defs.REGISTER_FORM_REFRESH:
+        case defs.ROUTER_STATE_CHANGE:
             return defaultState;
         default:
             return state;

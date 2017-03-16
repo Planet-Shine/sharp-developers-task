@@ -5,6 +5,8 @@ import { Link } from 'react-router';
 import './UserInfo.less';
 import CircularProgress from 'material-ui/CircularProgress';
 
+import { formatPrice } from 'utils/validation';
+
 class UserInfo extends Component {
 
     static propTypes = {
@@ -36,7 +38,7 @@ class UserInfo extends Component {
                                 </span>
                         }
                         <span className="user-info__amount">
-                            {balance} PW
+                            {formatPrice(balance)} PW
                         </span><br />
                         <span className="user-info__action" onClick={this.props.onLogout}>
                             logout

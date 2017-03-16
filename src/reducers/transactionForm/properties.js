@@ -11,28 +11,30 @@ const defaultState = Immutable.fromJS({
 
 const properties = (state=defaultState, action) => {
     switch (action.type) {
-        case defs.LOGIN_FORM_ENABLED:
+        case defs.TRANSACTION_FORM_ENABLED:
             return state.set('enabled', action.payload);
-        case defs.LOGIN_PENDING:
+        case defs.TRANSACTION_PENDING:
             return state.set('enabled', false);
-        case defs.LOGIN_SUCCEED:
+        case defs.TRANSACTION_SUCCEED:
             return state.merge({
                 enabled: true,
                 status: action.payload.status,
                 succeed: true
             });
-        case defs.LOGIN_FAILED:
+        case defs.TRANSACTION_FAILED:
             return state.merge({
                 enabled: true,
                 status: action.payload.status,
                 error: action.payload.entity
             });
-        case defs.LOGIN_FORM_DELETE_ERRORS:
+        case defs.TRANSACTION_FORM_DELETE_ERRORS:
             return state.merge({
+                succeed: false,
                 error: null,
                 status: null
             });
-        case defs.LOGIN_FORM_REFRESH:
+        case defs.TRANSACTION_FORM_REFRESH:
+            return defaultState;
         case defs.ROUTER_STATE_CHANGE:
             return defaultState;
         default:

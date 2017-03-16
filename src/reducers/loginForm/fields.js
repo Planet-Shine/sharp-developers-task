@@ -16,6 +16,7 @@ const fields = (state=defaultState, action) => {
         case defs.LOGIN_SUCCEED:
             return state.map(value => ''); // Очищаем форму по успешной отправке.
         case defs.LOGIN_FORM_REFRESH:
+        case defs.ROUTER_STATE_CHANGE:
             return defaultState;
         default:
             return state;
