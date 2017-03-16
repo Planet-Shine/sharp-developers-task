@@ -50,7 +50,7 @@ class TransactionHistory extends Component {
                     <CircularProgress />
                 }
                 {(!list.length) &&
-                    <CardText>Вы еще не совершали ни одного перевода</CardText>
+                    <CardText>Вы еще не совершыли ни одного перевода</CardText>
                 }
                 {(list.length || '') && loaded &&
                     <Table
