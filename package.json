@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "./node_modules/.bin/static ./public &",
     "devserver": "./node_modules/.bin/webpack-dev-server --debug --hot --devtool inline-source-map --output-pathinfo --watch --colors --inline --content-base public --port 8090 --host 0.0.0.0",
-    "build": "./node_modules/.bin/webpack -p --display-error-details"
+    "build": "./node_modules/.bin/webpack -p --display-error-details",
+    "demobuild": "./node_modules/.bin/webpack -p --display-error-details"
   },
   "author": "Pavel Kondrik",
   "license": "ISC",

@@ -4,8 +4,8 @@ import rest from 'rest';
 import mime from 'rest/interceptor/mime';
 import cookies from 'browser-cookies';
 import defaultRequest from 'rest/interceptor/defaultRequest';
-
-const baseUrl = "http://193.124.114.46:3001/";
+const sSymbol = /^[\s]*https:\/\//.test(String(location)) ? 's' : '';
+const baseUrl = `http${sSymbol}://193.124.114.46:3001/`;
 
 export default (idToken=cookies.get('idToken')) => {
     var headers = {};

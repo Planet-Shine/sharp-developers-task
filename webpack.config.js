@@ -7,6 +7,7 @@ const lifecycleEvent = process.env.npm_lifecycle_event;
 const sourcePath = path.join(__dirname, './src');
 const isDev = lifecycleEvent === 'devserver';
 const isProd = lifecycleEvent === 'build';
+const isDemoBuild = lifecycleEvent === 'demobuild';
 
 module.exports = function (env) {
 
@@ -122,7 +123,7 @@ module.exports = function (env) {
             ],
             exclude: [/node_modules/, /public/]
         });
-    } else if (isProd) {
+    } else if (isProd || isDemoBuild) {
         config.module.rules.push({
             test: /\.css$/,
             use: ExtractTextPlugin.extract({ fallback: 'style-loader', use: 'css-loader' }),
@@ -139,5 +140,12 @@ module.exports = function (env) {
             new ExtractTextPlugin('styles.css')
         ];
     };
+    if (isDemoBuild) {
+        config.output = {
+            path: path.resolve(__dirname, './public'),
+            publicPath: "/experiences/sharp-developers-task/",
+            filename: '[name].bundle.js'
+        };
+    }
     return config;
 };
