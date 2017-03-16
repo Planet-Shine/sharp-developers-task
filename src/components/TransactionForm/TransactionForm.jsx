@@ -64,7 +64,7 @@ class TransactionForm extends Component {
     }
 
     handleFocusNameAutocomplete() {
-        // this.nameField.refs.searchTextField.input.focus();
+        this.nameField.refs.searchTextField.input.focus();
     }
 
     handleSubmit(event) {

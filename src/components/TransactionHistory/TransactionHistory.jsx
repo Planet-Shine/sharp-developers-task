@@ -4,7 +4,6 @@ import './TransactionHistory.less';
 import {Table, TableBody, TableFooter, TableHeader, TableHeaderColumn, TableRow, TableRowColumn}
     from 'material-ui/Table';
 import { formatPrice, formatAmount, formatDate } from 'utils/validation';
-import Subheader from 'material-ui/Subheader';
 import CircularProgress from 'material-ui/CircularProgress';
 import {CardText} from 'material-ui/Card';
 
@@ -100,25 +99,5 @@ class TransactionHistory extends Component {
         );
     }
 }
-
-/*
-
- {"id":153,"date":"3/16/2017, 1:06:45 PM","username":"PavelOfficial","amount":-123.16,"balance":376.84000000000003}
- <ListItem
- primaryText={
-
- }
- secondaryText="Change your Google+ profile photo"
- secondaryTextLines={2}
- />
- <Divider inset={true} />
- */
-/*
- disabled={true} // Для простой истории.
- Дата/Время сделки
- Имя корреспондента
- Размер транзакции (Дебит/Кредит для PW переноса средств)
- Итоговый баланс
-*/
 
 export default TransactionHistory;

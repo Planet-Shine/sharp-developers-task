@@ -17,11 +17,11 @@ class AccountPage extends Component {
                         <RaisedButton primary={true} label="Перевод денег" containerElement="label" />
                     </ButtonLink>
                     <ButtonLink to="/transactions">
-                        <FlatButton label="История платежей" containerElement="label" />
+                        <FlatButton label="История переводов" containerElement="label" />
                     </ButtonLink>
                 </CardText>
                 <CardText>
-                    Ваше веб-приложение электронных платежей Parrot Wings.<br />
+                    Ваше веб-приложение электронных денежных переводов Parrot Wings.<br />
                     Совершайте переводы между участниками системы.
                 </CardText>
             </div>
