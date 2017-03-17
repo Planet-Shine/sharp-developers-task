@@ -64,6 +64,7 @@ class TransactionForm extends Component {
     }
 
     handleFocusNameAutocomplete() {
+        console.log(arguments);
         this.nameField.refs.searchTextField.input.focus();
     }
 
@@ -94,10 +95,20 @@ class TransactionForm extends Component {
         errors.forEach(({error, name}) => {
             errorMap[name] = errorMessages[name][error];
         });
+        
+
         return (
             <form onSubmit={this.handleSubmit}
                   className="transaction-form"
                   noValidate>
+
+
+
+                
+
+
+
+
                 <div className="transaction-form__field">
                     <AutoComplete
                         ref={e => this.nameField = e}

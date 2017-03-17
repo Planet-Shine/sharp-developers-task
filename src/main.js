@@ -10,6 +10,12 @@ import { routerStateChange } from 'actions/router';
 
 import './styles/base.less';
 
+import injectTapEventPlugin from 'react-tap-event-plugin';
+
+// Needed for onTouchTap
+// http://stackoverflow.com/a/34015469/988941
+injectTapEventPlugin();
+
 const store = produceStore();
 
 const component = (
