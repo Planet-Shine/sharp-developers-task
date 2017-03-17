@@ -14,6 +14,8 @@ const list = (state=defaultState, action) => {
             return defaultState;
         case defs.TRANSACTION_SUCCEED:
             return state.push(Immutable.fromJS(action.payload));
+        case defs.LOGOUT:
+            return defaultState;
         default:
             return state;
     }

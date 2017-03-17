@@ -37,6 +37,8 @@ const properties = (state=defaultState, action) => {
             return state.set('selectedIndex', action.payload.index);
         case defs.TRANSACTION_FORM_FIELD:
             return state.set('selectedIndex', null);
+        case defs.LOGOUT:
+            return defaultState;
         default:
             return state;
     }
