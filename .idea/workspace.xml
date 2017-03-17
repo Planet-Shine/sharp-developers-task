@@ -4,599 +4,9 @@
     <bookmark url="file://$PROJECT_DIR$/src/utils/validation.js" line="58" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aacabd3b-b3e8-478d-b386-115472aea9db" name="Default" comment="history logout fix">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/AutoComplete/AutoComplete.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/AutoComplete/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/BottomNavigation/BottomNavigation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/BottomNavigation/BottomNavigationItem.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/BottomNavigation/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/CircularProgress/CircularProgress.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/CircularProgress/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/DatePicker/Calendar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/DatePicker/CalendarActionButtons.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/DatePicker/CalendarMonth.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/DatePicker/CalendarToolbar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/DatePicker/CalendarYear.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/DatePicker/DateDisplay.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/DatePicker/DatePicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/DatePicker/DatePickerDialog.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/DatePicker/DayButton.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/DatePicker/YearButton.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/DatePicker/dateUtils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/DatePicker/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/DropDownMenu/DropDownMenu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/DropDownMenu/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/FlatButton/FlatButton.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/FlatButton/FlatButtonLabel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/FlatButton/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/FloatingActionButton/FloatingActionButton.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/FloatingActionButton/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/IconButton/IconButton.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/IconButton/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/LinearProgress/LinearProgress.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/LinearProgress/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/List/makeSelectable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/RadioButton/RadioButton.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/RadioButton/RadioButtonGroup.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/RadioButton/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/RaisedButton/RaisedButton.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/RaisedButton/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/RefreshIndicator/RefreshIndicator.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/RefreshIndicator/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/SelectField/SelectField.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/SelectField/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/TextField/EnhancedTextarea.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/TextField/TextField.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/TextField/TextFieldHint.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/TextField/TextFieldLabel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/TextField/TextFieldUnderline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/TextField/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/TimePicker/Clock.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/TimePicker/ClockHours.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/TimePicker/ClockMinutes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/TimePicker/ClockNumber.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/TimePicker/ClockPointer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/TimePicker/TimeDisplay.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/TimePicker/TimePicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/TimePicker/TimePickerDialog.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/TimePicker/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/TimePicker/timeUtils.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/accessibility.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/accessible.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/account-balance-wallet.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/account-circle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/alarm-on.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/alarm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/all-out.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/announcement.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/aspect-ratio.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/assignment-ind.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/book.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/card-membership.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/card-travel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/change-history.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/check-circle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/chrome-reader-mode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/compare-arrows.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/copyright.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/date-range.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/delete-forever.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/done-all.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/euro-symbol.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/event-seat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/event.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/exit-to-app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/extension.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/favorite.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/find-in-page.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/flip-to-front.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/g-translate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/gavel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/grade.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/home.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/important-devices.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/info.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/input.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/invert-colors.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/label-outline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/label.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/lightbulb-outline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/line-weight.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/lock-outline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/loyalty.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/markunread-mailbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/motorcycle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/note-add.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/open-in-browser.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/open-in-new.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/open-with.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/pageview.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/pan-tool.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/perm-contact-calendar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/perm-data-setting.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/perm-identity.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/perm-scan-wifi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/pets.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/picture-in-picture.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/play-for-work.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/polymer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/power-settings-new.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/restore-page.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/settings-cell.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/settings-input-antenna.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/settings-input-svideo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/settings-overscan.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/settings-phone.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/settings-voice.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/shopping-basket.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/spellcheck.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/stars.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/swap-horiz.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/tab-unselected.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/tab.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/theaters.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/three-d-rotation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/thumb-up.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/timeline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/toc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/toll.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/track-changes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/update.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/view-agenda.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/view-column.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/view-day.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/watch-later.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/work.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/action/youtube-searched-for.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/business.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/call-end.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/call-made.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/call-merge.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/call-missed-outgoing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/call-missed.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/call-received.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/call-split.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/call.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/chat-bubble-outline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/chat-bubble.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/chat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/clear-all.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/comment.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/contact-mail.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/contact-phone.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/contacts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/dialer-sip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/dialpad.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/email.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/forum.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/import-contacts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/import-export.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/invert-colors-off.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/live-help.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/location-off.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/location-on.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/mail-outline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/message.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/no-sim.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/phone.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/phonelink-erase.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/phonelink-lock.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/phonelink-ring.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/phonelink-setup.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/portable-wifi-off.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/present-to-all.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/ring-volume.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/rss-feed.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/screen-share.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/speaker-phone.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/stay-current-landscape.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/stay-current-portrait.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/stay-primary-landscape.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/stay-primary-portrait.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/stop-screen-share.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/swap-calls.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/textsms.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/voicemail.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/communication/vpn-key.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/content/add-box.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/content/add-circle-outline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/content/add-circle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/content/add.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/content/archive.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/content/backspace.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/content/block.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/content/clear.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/content/content-copy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/content/content-cut.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/content/content-paste.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/content/create.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/content/delete-sweep.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/content/drafts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/content/filter-list.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/content/flag.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/content/font-download.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/content/forward.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/content/gesture.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/content/inbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/content/link.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/content/low-priority.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/content/mail.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/content/markunread.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/content/move-to-inbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/content/next-week.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/content/redo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/content/remove-circle-outline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/content/remove-circle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/content/remove.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/content/reply-all.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/content/reply.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/content/report.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/content/save.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/content/select-all.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/content/send.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/content/sort.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/content/text-format.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/content/unarchive.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/content/undo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/content/weekend.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/access-alarm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/access-alarms.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/access-time.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/add-alarm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/airplanemode-active.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/airplanemode-inactive.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/battery-20.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/battery-30.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/battery-50.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/battery-60.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/battery-80.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/battery-90.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/battery-alert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/battery-charging-20.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/battery-charging-30.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/battery-charging-50.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/battery-charging-60.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/battery-charging-80.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/battery-charging-90.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/battery-charging-full.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/battery-full.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/battery-std.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/battery-unknown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/bluetooth-connected.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/bluetooth-disabled.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/bluetooth-searching.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/bluetooth.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/brightness-auto.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/brightness-high.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/brightness-low.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/brightness-medium.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/data-usage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/developer-mode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/devices.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/dvr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/gps-fixed.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/gps-not-fixed.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/gps-off.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/graphic-eq.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/location-disabled.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/location-searching.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/network-cell.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/network-wifi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/nfc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/screen-lock-landscape.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/screen-lock-portrait.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/screen-lock-rotation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/screen-rotation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/sd-storage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/settings-system-daydream.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/signal-cellular-0-bar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/signal-cellular-1-bar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/signal-cellular-2-bar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/signal-cellular-3-bar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/signal-cellular-4-bar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/signal-cellular-connected-no-internet-0-bar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/signal-cellular-connected-no-internet-1-bar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/signal-cellular-connected-no-internet-2-bar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/signal-cellular-connected-no-internet-3-bar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/signal-cellular-connected-no-internet-4-bar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/signal-cellular-no-sim.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/signal-cellular-null.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/signal-cellular-off.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/signal-wifi-0-bar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/signal-wifi-1-bar-lock.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/signal-wifi-1-bar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/signal-wifi-2-bar-lock.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/signal-wifi-2-bar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/signal-wifi-3-bar-lock.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/signal-wifi-3-bar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/signal-wifi-4-bar-lock.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/signal-wifi-4-bar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/signal-wifi-off.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/storage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/usb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/wallpaper.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/widgets.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/wifi-lock.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/device/wifi-tethering.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/attach-file.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/attach-money.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/border-all.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/border-bottom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/border-clear.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/border-color.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/border-horizontal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/border-inner.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/border-left.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/border-outer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/border-right.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/border-style.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/border-top.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/border-vertical.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/bubble-chart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/drag-handle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/format-align-center.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/format-align-justify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/format-align-left.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/format-align-right.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/format-bold.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/format-clear.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/format-color-fill.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/format-color-reset.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/format-color-text.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/format-indent-decrease.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/format-indent-increase.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/format-italic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/format-line-spacing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/format-list-bulleted.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/format-list-numbered.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/format-paint.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/format-quote.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/format-shapes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/format-size.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/format-strikethrough.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/format-textdirection-l-to-r.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/format-textdirection-r-to-l.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/format-underlined.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/highlight.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/insert-chart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/insert-comment.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/insert-drive-file.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/insert-emoticon.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/insert-invitation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/insert-link.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/insert-photo.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/linear-scale.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/merge-type.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/mode-comment.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/mode-edit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/monetization-on.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/money-off.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/multiline-chart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/pie-chart-outlined.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/pie-chart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/publish.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/short-text.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/show-chart.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/space-bar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/strikethrough-s.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/text-fields.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/title.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/vertical-align-bottom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/vertical-align-center.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/vertical-align-top.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/editor/wrap-text.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/cast-connected.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/cast.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/computer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/desktop-mac.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/desktop-windows.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/developer-board.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/device-hub.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/devices-other.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/dock.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/gamepad.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/headset-mic.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/headset.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/keyboard-arrow-down.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/keyboard-arrow-left.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/keyboard-arrow-right.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/keyboard-arrow-up.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/keyboard-backspace.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/keyboard-capslock.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/keyboard-hide.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/keyboard-return.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/keyboard-tab.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/keyboard-voice.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/keyboard.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/laptop-chromebook.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/laptop-mac.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/laptop-windows.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/laptop.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/memory.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/mouse.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/phone-android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/phone-iphone.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/phonelink-off.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/phonelink.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/power-input.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/router.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/scanner.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/security.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/sim-card.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/smartphone.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/speaker-group.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/speaker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/tablet-android.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/tablet-mac.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/tablet.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/toys.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/tv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/videogame-asset.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/hardware/watch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/index.es.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/navigation/apps.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/navigation/arrow-back.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/navigation/arrow-downward.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/navigation/arrow-drop-down-circle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/navigation/arrow-drop-down.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/navigation/arrow-drop-up.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/navigation/arrow-forward.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/navigation/arrow-upward.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/navigation/cancel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/navigation/check.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/navigation/chevron-left.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/navigation/chevron-right.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/navigation/close.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/navigation/expand-less.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/navigation/expand-more.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/navigation/first-page.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/navigation/fullscreen-exit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/navigation/fullscreen.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/navigation/last-page.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/navigation/menu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/navigation/more-horiz.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/navigation/more-vert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/navigation/refresh.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/navigation/subdirectory-arrow-left.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/navigation/subdirectory-arrow-right.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/navigation/unfold-less.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/navigation/unfold-more.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/adb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/airline-seat-flat-angled.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/airline-seat-flat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/airline-seat-individual-suite.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/airline-seat-legroom-extra.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/airline-seat-legroom-normal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/airline-seat-legroom-reduced.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/airline-seat-recline-extra.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/airline-seat-recline-normal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/bluetooth-audio.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/confirmation-number.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/disc-full.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/do-not-disturb-alt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/do-not-disturb-off.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/do-not-disturb-on.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/do-not-disturb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/drive-eta.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/enhanced-encryption.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/event-available.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/event-busy.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/event-note.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/folder-special.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/live-tv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/mms.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/more.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/network-check.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/network-locked.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/no-encryption.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/ondemand-video.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/personal-video.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/phone-bluetooth-speaker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/phone-forwarded.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/phone-in-talk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/phone-locked.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/phone-missed.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/phone-paused.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/power.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/priority-high.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/rv-hookup.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/sd-card.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/sim-card-alert.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/sms-failed.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/sms.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/sync-disabled.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/sync-problem.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/sync.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/system-update.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/tap-and-play.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/time-to-leave.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/vibration.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/voice-chat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/vpn-lock.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/wc.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/notification/wifi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/places/ac-unit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/places/airport-shuttle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/places/all-inclusive.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/places/beach-access.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/places/business-center.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/places/casino.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/places/child-care.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/places/child-friendly.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/places/fitness-center.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/places/free-breakfast.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/places/golf-course.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/places/hot-tub.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/places/kitchen.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/places/pool.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/places/room-service.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/places/rv-hookup.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/places/smoke-free.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/places/smoking-rooms.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/places/spa.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/social/cake.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/social/domain.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/social/group-add.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/social/group.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/social/location-city.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/social/mood-bad.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/social/mood.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/social/notifications-active.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/social/notifications-none.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/social/notifications-off.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/social/notifications-paused.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/social/notifications.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/social/pages.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/social/party-mode.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/social/people-outline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/social/people.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/social/person-add.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/social/person-outline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/social/person.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/social/plus-one.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/social/poll.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/social/public.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/social/school.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/social/sentiment-dissatisfied.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/social/sentiment-neutral.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/social/sentiment-satisfied.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/social/sentiment-very-dissatisfied.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/social/sentiment-very-satisfied.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/social/share.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/social/whatshot.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/toggle/check-box-outline-blank.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/toggle/check-box.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/toggle/indeterminate-check-box.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/toggle/radio-button-checked.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/toggle/radio-button-unchecked.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/toggle/star-border.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/toggle/star-half.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/svg-icons/toggle/star.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/material-ui/utils/iOSHelpers.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.babelrc" afterPath="$PROJECT_DIR$/.babelrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="aacabd3b-b3e8-478d-b386-115472aea9db" name="Default" comment="initialize fixes">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/babel-preset-stage-1/package.json" afterPath="$PROJECT_DIR$/node_modules/babel-preset-stage-1/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/material-ui/CHANGELOG.md" afterPath="$PROJECT_DIR$/node_modules/material-ui/CHANGELOG.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/material-ui/Chip/Chip.js" afterPath="$PROJECT_DIR$/node_modules/material-ui/Chip/Chip.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/material-ui/List/ListItem.js" afterPath="$PROJECT_DIR$/node_modules/material-ui/List/ListItem.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/material-ui/Menu/Menu.js" afterPath="$PROJECT_DIR$/node_modules/material-ui/Menu/Menu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/material-ui/MenuItem/MenuItem.js" afterPath="$PROJECT_DIR$/node_modules/material-ui/MenuItem/MenuItem.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/material-ui/Paper/Paper.js" afterPath="$PROJECT_DIR$/node_modules/material-ui/Paper/Paper.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/material-ui/Snackbar/SnackbarBody.js" afterPath="$PROJECT_DIR$/node_modules/material-ui/Snackbar/SnackbarBody.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/material-ui/Toolbar/ToolbarTitle.js" afterPath="$PROJECT_DIR$/node_modules/material-ui/Toolbar/ToolbarTitle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/material-ui/internal/EnhancedButton.js" afterPath="$PROJECT_DIR$/node_modules/material-ui/internal/EnhancedButton.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/material-ui/internal/EnhancedSwitch.js" afterPath="$PROJECT_DIR$/node_modules/material-ui/internal/EnhancedSwitch.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/material-ui/internal/Tooltip.js" afterPath="$PROJECT_DIR$/node_modules/material-ui/internal/Tooltip.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/material-ui/package.json" afterPath="$PROJECT_DIR$/node_modules/material-ui/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/material-ui/styles/baseThemes/darkBaseTheme.js" afterPath="$PROJECT_DIR$/node_modules/material-ui/styles/baseThemes/darkBaseTheme.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/material-ui/styles/baseThemes/lightBaseTheme.js" afterPath="$PROJECT_DIR$/node_modules/material-ui/styles/baseThemes/lightBaseTheme.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/TransactionForm/TransactionForm.jsx" afterPath="$PROJECT_DIR$/src/components/TransactionForm/TransactionForm.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/containers/PWLoginPage/PWLoginPage.jsx" afterPath="$PROJECT_DIR$/src/containers/PWLoginPage/PWLoginPage.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.js" afterPath="$PROJECT_DIR$/src/main.js" />
     </list>
     <ignored path="sharp-developers-task.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -617,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TransactionForm.jsx" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TransactionForm.jsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/TransactionForm/TransactionForm.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="97" column="8" selection-start-line="97" selection-start-column="8" selection-end-line="97" selection-end-column="8" />
+            <state relative-caret-position="272">
+              <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
               <folding>
                 <element signature="e#1#60#0" expanded="true" />
               </folding>
@@ -632,8 +42,8 @@
       <file leaf-file-name="PWLoginPage.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/PWLoginPage/PWLoginPage.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="81" column="30" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="30" />
+            <state relative-caret-position="591">
+              <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
               <folding>
                 <element signature="e#1#53#0" expanded="true" />
               </folding>
@@ -644,8 +54,8 @@
       <file leaf-file-name="Menu.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/material-ui/Menu/Menu.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="669" column="15" selection-start-line="669" selection-start-column="15" selection-end-line="669" selection-end-column="15" />
+            <state relative-caret-position="255">
+              <caret line="678" column="15" selection-start-line="678" selection-start-column="15" selection-end-line="678" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -654,8 +64,8 @@
       <file leaf-file-name="MenuItem.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/material-ui/MenuItem/MenuItem.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="257" column="17" selection-start-line="257" selection-start-column="9" selection-end-line="257" selection-end-column="17" />
+            <state relative-caret-position="561">
+              <caret line="278" column="17" selection-start-line="278" selection-start-column="17" selection-end-line="278" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -664,8 +74,8 @@
       <file leaf-file-name="ListItem.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/material-ui/List/ListItem.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="240" column="26" selection-start-line="240" selection-start-column="13" selection-end-line="240" selection-end-column="41" />
+            <state relative-caret-position="663">
+              <caret line="267" column="26" selection-start-line="267" selection-start-column="26" selection-end-line="267" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -674,18 +84,18 @@
       <file leaf-file-name="AutoComplete.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/material-ui/AutoComplete/AutoComplete.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="127" column="24" selection-start-line="127" selection-start-column="24" selection-end-line="127" selection-end-column="24" />
+            <state relative-caret-position="204">
+              <caret line="137" column="24" selection-start-line="137" selection-start-column="24" selection-end-line="137" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            <state relative-caret-position="90">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -776,12 +186,12 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/node_modules/material-ui/AutoComplete/AutoComplete.js" />
         <option value="$PROJECT_DIR$/node_modules/material-ui/package.json" />
-        <option value="$PROJECT_DIR$/src/components/TransactionForm/TransactionForm.jsx" />
-        <option value="$PROJECT_DIR$/src/containers/PWLoginPage/PWLoginPage.jsx" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/main.js" />
         <option value="$PROJECT_DIR$/.babelrc" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/containers/PWLoginPage/PWLoginPage.jsx" />
+        <option value="$PROJECT_DIR$/src/components/TransactionForm/TransactionForm.jsx" />
       </list>
     </option>
   </component>
@@ -793,7 +203,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="165" />
     <option name="y" value="126" />
-    <option name="width" value="1377" />
+    <option name="width" value="1605" />
     <option name="height" value="1176" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -952,7 +362,7 @@
       <workItem from="1489693744594" duration="2802000" />
       <workItem from="1489732326721" duration="2345000" />
       <workItem from="1489734714938" duration="71000" />
-      <workItem from="1489735717013" duration="5095000" />
+      <workItem from="1489735717013" duration="5296000" />
     </task>
     <task id="LOCAL-00001" summary="layout plan">
       <created>1489402221827</created>
@@ -1087,24 +497,38 @@
       <option name="project" value="LOCAL" />
       <updated>1489733124704</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="initialize fixes">
+      <created>1489741664770</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1489741664770</updated>
+    </task>
+    <task id="LOCAL-00021" summary="initialize fixes">
+      <created>1489741702387</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1489741702387</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174620000" />
+    <option name="totallyTimeSpent" value="174821000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="165" y="126" width="1377" height="1176" extended-state="0" />
+    <frame x="165" y="126" width="1605" height="1176" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22778192" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19463944" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19036697" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18965517" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329718" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32471263" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32471263" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1162,7 +586,8 @@
     <MESSAGE value="node modules" />
     <MESSAGE value="Fixes" />
     <MESSAGE value="history logout fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="history logout fix" />
+    <MESSAGE value="initialize fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="initialize fixes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1471,54 +896,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TransactionForm/TransactionForm.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="97" column="8" selection-start-line="97" selection-start-column="8" selection-end-line="97" selection-end-column="8" />
-          <folding>
-            <element signature="e#1#60#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/material-ui/AutoComplete/AutoComplete.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="127" column="24" selection-start-line="127" selection-start-column="24" selection-end-line="127" selection-end-column="24" />
+        <state relative-caret-position="204">
+          <caret line="137" column="24" selection-start-line="137" selection-start-column="24" selection-end-line="137" selection-end-column="24" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/PWLoginPage/PWLoginPage.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="81" column="30" selection-start-line="81" selection-start-column="30" selection-end-line="81" selection-end-column="30" />
-          <folding>
-            <element signature="e#1#53#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/material-ui/Menu/Menu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="669" column="15" selection-start-line="669" selection-start-column="15" selection-end-line="669" selection-end-column="15" />
+        <state relative-caret-position="255">
+          <caret line="678" column="15" selection-start-line="678" selection-start-column="15" selection-end-line="678" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/material-ui/MenuItem/MenuItem.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="257" column="17" selection-start-line="257" selection-start-column="9" selection-end-line="257" selection-end-column="17" />
+        <state relative-caret-position="561">
+          <caret line="278" column="17" selection-start-line="278" selection-start-column="17" selection-end-line="278" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/material-ui/List/ListItem.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="240" column="26" selection-start-line="240" selection-start-column="13" selection-end-line="240" selection-end-column="41" />
+        <state relative-caret-position="663">
+          <caret line="267" column="26" selection-start-line="267" selection-start-column="26" selection-end-line="267" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -1551,9 +956,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        <state relative-caret-position="90">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/PWLoginPage/PWLoginPage.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+          <folding>
+            <element signature="e#1#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TransactionForm/TransactionForm.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="66" column="8" selection-start-line="66" selection-start-column="8" selection-end-line="66" selection-end-column="8" />
+          <folding>
+            <element signature="e#1#60#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
