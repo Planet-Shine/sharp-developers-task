@@ -2,6 +2,7 @@
 import React, { Component, PropTypes } from 'react';
 import { CardHeader } from 'material-ui/Card';
 import Avatar from 'material-ui/Avatar';
+import './ParrotWingsHeader.less';
 
 import {
     white
@@ -17,6 +18,7 @@ class ParrotWingsHeader extends Component  {
             <CardHeader
                 style={this.props.style}
                 avatar={<Avatar
+                  style={{display:'inline-block'}}
                   src="/images/coin-ico.png"
                   backgroundColor={white}
                   size={35}
