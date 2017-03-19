@@ -14,8 +14,9 @@ const AUTOCOMPLETE_THROTTLE_DELAY = 400;
 const AUTOCOMPLETE_THROTTLE_NO_TRAILING = false;
 const AUTOCOMPLETE_MIN_LENGTH = 2;
 
-const mapStateToProps = ({ transactionForm: {fields, errors, properties, filteredUsers} }) => {
+const mapStateToProps = ({account, transactionForm: {fields, errors, properties, filteredUsers} }) => {
     return {
+        account,
         fields,
         errors,
         properties,
@@ -70,10 +71,10 @@ class PWTransactionForm extends Component {
                 error: 'required'
             });
         }
-        const { dispatch } = this.props;
+        const { dispatch, account } = this.props;
         if (!errors.length) {
             amount = parsePrice(amount);
-            dispatch(transaction({ name, amount }));
+            dispatch(transaction({balance: account.get('balance'), name, amount }));
         }
         dispatch(transactionForm({fields, errors}));
     }

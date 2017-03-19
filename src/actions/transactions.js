@@ -4,10 +4,10 @@ import defs from 'defs/actionTypes';
 import statusCodes, { successStatusCodes } from 'defs/httpStatusCodes';
 import { logoutUser } from 'actions/transactions';
 
-export const transactionFailed = ({status, entity}) => {
+export const transactionFailed = ({status, entity, balance}) => {
     return {
         type: defs.TRANSACTION_FAILED,
-        payload: {status, entity}
+        payload: {status, entity, balance}
     };
 };
 
@@ -18,11 +18,11 @@ export const transactionSucceed = ({id, date, username, amount, balance}) => {
     };
 };
 
-export const transaction = ({name, amount}) => {
+export const transaction = ({name, amount, balance: previousBalance}) => {
     return dispatch => {
         dispatch({
             type: defs.TRANSACTION_PENDING,
-            payload: {name, amount}
+            payload: {name, amount: amount <= previousBalance ? amount : 0}
         });
         api.createTransaction({name, amount}).then(
             ({ entity, status: { code }}) => {
@@ -33,12 +33,12 @@ export const transaction = ({name, amount}) => {
                     if (statusCodes.Unauthorized === code) {
                         dispatch(logoutUser());
                     } else {
-                        dispatch(transactionFailed({status: code, entity}));
+                        dispatch(transactionFailed({status: code, entity, balance: previousBalance}));
                     }
                 }
             },
             ({ entity, status: { code }}) => {
-                dispatch(transactionFailed({status: code, entity}));
+                dispatch(transactionFailed({status: code, entity, balance: previousBalance}));
             }
         );
     };

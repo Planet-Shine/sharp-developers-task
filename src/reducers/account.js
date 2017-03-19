@@ -10,8 +10,7 @@ const defaultUserInfo = Immutable.fromJS({
     id: null,
     name: null,
     email: null,
-    balance: null,
-    previousBalance: null
+    balance: null
 });
 const getDefaultState = () => {
     const idToken = cookies.get('idToken');
@@ -35,30 +34,11 @@ const account = (state=getDefaultState(), action) => {
         case defs.USER_INFO_SUCCEED:
             return state.merge(action.payload, {pending: false, loaded: true});
         case defs.TRANSACTION_PENDING:
-            return (function () {
-                const amount = (action.payload || {}).amount || 0;
-                const currentBalance = state.get('balance');
-                if (amount > currentBalance) {
-                    return state;
-                }
-                return state.merge({
-                    balance: currentBalance - amount,
-                    previousBalance: currentBalance
-                });
-            }());
+            return state.set('balance', state.get('balance')- action.payload.amount);
         case defs.TRANSACTION_SUCCEED:
             return state.set('balance', (action.payload || {}).balance);
         case defs.TRANSACTION_FAILED:
-            return (function () {
-                const previousBalance = state.get('previousBalance');
-                if (previousBalance !== null) {
-                    return state.merge({
-                        balance: previousBalance,
-                        previousBalance: null
-                    });
-                }
-                return state;
-            }());
+            return state.set('balance', action.payload.balance);
         case defs.USER_INFO_FAIL:
             return state.merge(defaultUserInfo);
         case defs.LOGOUT:
