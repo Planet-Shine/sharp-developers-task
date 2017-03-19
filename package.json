@@ -13,6 +13,7 @@
   "author": "Pavel Kondrik",
   "license": "ISC",
   "dependencies": {
+    "array.from": "^1.0.3",
     "browser-cookies": "^1.1.0",
     "classnames": "^2.2.5",
     "es6-promise": "^4.1.0",
