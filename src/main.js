@@ -1,4 +1,11 @@
 
+import 'es6-promise/auto'; // Ставим полифил Promise для ie9.
+
+import injectTapEventPlugin from 'react-tap-event-plugin';
+// Needed for onTouchTap
+// http://stackoverflow.com/a/34015469/988941
+injectTapEventPlugin();
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
@@ -7,14 +14,8 @@ import getRoutes from 'routes';
 import { Router, hashHistory } from 'react-router';
 import { Provider } from 'react-redux';
 import { routerStateChange } from 'actions/router';
-
 import './styles/base.less';
 
-import injectTapEventPlugin from 'react-tap-event-plugin';
-
-// Needed for onTouchTap
-// http://stackoverflow.com/a/34015469/988941
-injectTapEventPlugin();
 
 const store = produceStore();
 
